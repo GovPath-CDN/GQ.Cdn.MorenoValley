@@ -1,0 +1,202 @@
+/* Tree Styling */
+.panel-primary > .panel-heading {
+    background-color: #0653a1;
+}
+
+.list-group-item-question, .answers a.list-group-item strong::before {
+    background-color: #0653a1;
+}
+
+.answers a.list-group-item::after {
+    border-color: #0653a1;
+}
+
+.answers > a:nth-child(even) {
+    background-color: rgb(234, 239, 243);
+}
+
+#loading {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 620px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+}
+
+body {
+    height: auto !important;
+    min-height: 500px !important;
+}
+
+#node-175347564-1 .myContainer {
+    min-height: 250px;
+}
+
+#node-175347564-1 .myContainer {
+    min-height: 200px;
+}
+
+#node-175347564-39 .planreviewcontainer {
+    max-width: 48%;
+}
+
+.planreviewcontainer > * {
+    text-align:left;
+}
+
+.planreviewdocs123 {
+    text-align: left;
+}
+
+.planreviewcontainer {
+    width: 50%;
+    padding-right:30px;
+}
+
+#myContainer {
+  /* min-height: 225px; */
+    margin-top: 40px;
+}
+
+#infoBoxLastLine847 {
+    padding-bottom: 13px;
+}
+
+/* Info Box */
+#informationPanel {
+    position: absolute;
+    background-color: #f5f5f5;
+    width: 48.53%;
+    padding: 10px;
+    left: 50%;
+    border: 1px solid #808080;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+@media (max-width: 992px) {
+    #informationPanel {
+        position:inherit !important;
+        width:100% !important;
+    }
+}
+
+h1, h2, h3, h4, h5 {
+    color:#0653a1 !important
+}
+
+#node-title {
+    color:white
+}
+
+#loading-image {
+    margin-top: 310px
+}
+
+.content-question a {
+    color: blue;
+    text-decoration: underline;
+}
+
+p {
+    background-color: transparent !important
+}
+
+#node-622638198-1 .panel-body {
+    background-image: url(https://i.ibb.co/wNgHzGr/Cityof-Moreno-Valley-vlg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:contain;
+}
+
+i {
+    color: white;
+}
+
+#node-question {
+    color: white;
+}
+
+.panels-node-title h3::before {
+    color:white;
+}
+
+#restart_button, #back_button {
+    color: black;
+    border-color: #0653a1;
+}
+i.fa {
+    align-self: center;
+    min-width:13px
+}
+#node-622638198-1 .displayIcon {
+    display: block !important
+}
+.list-group-item-question .fa::before {
+    color:white;
+}
+
+/* DPR Styling */
+@import url(https://dpr.epermithub.com/fonts/fa/css/fontawesome.css);
+.column { float: left; width: 50%; }  
+.row:after { content: ''; display: table; clear: both; }
+@media screen and (max-width: 900px) { .column {   width: 100%;  } }
+.badge.rounded-pill.bg-secondary.ms-auto {align-self: center;}
+.dpr-submittal-checklist-panel { min-width: 135px; background: white; border: 1px solid #ccc; border-radius: 3px; padding: 0px; } /*max-width: 380px;*/
+.dpr-checklist-panel-heading { background-color: #f5f6f5; font-size: 18px; padding: 9px; color: #0653a1 !important; font-weight: bold;}
+.dpr-checklist-border { border-bottom: 1px solid #ccc; }
+.dpr-reqs-list { padding: 14px; overflow-y: auto; }    /* max-height: 280px;*/
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.flex-left {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; 
+}
+
+.dpr-req-label {
+    padding-left: 5px !important;
+    font-size: 14px;
+    word-wrap: break-word; 
+}
+
+.badge.rounded-pill.bg-secondary.ms-auto {
+    flex-shrink: 0;
+}
+
+
+.dpr-checklist-label-danger { color: #d9534f; }
+.dpr-checklist-label-warning {color: #f0ad4e; }
+.dpr-checklist-label-info { color: #5bc0de; }    
+
+.bg-light-danger { background-color: rgb(244 17 39 / .11)!important; }  
+.bg-light-warning { background-color: rgb(255 193 7 / .11)!important; }
+.bg-light-info { background-color: rgb(255 193 7 / .11)!important; }
+.dpr-submittal-checklist-error-msg { display: table-cell;  padding-left: 20px;  padding-bottom: 4px;  font-size: 12px;  }
+.dpr-requirements-arrow-up {width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; }
+.dpr-requirements-arrow-up-danger { border-bottom: 5px solid rgb(244 17 39 / .11)!important; }
+.dpr-requirements-arrow-up-warning { border-bottom: 5px solid rgb(255 193 7 / .11)!important; }
+.dpr-requirements-arrow-up-info { border-bottom: 5px solid rgb(255 193 7 / .11)!important; }
+
+.border-bottom { border-bottom: 1px solid #dee2e6 !important; }
+.py-2 { padding-top: 0.25rem !important; padding-bottom: 0.4rem !important; }    
+.border-2 { border-width: 2px !important; }
+.mt-0 { margin-top: 0 !important; }
+.fw-bold { font-weight: 700 !important; }
+.px-2 { padding-right: 0.5rem !important; padding-left: 0.5rem !important; }
+.fs-5 { font-size: 1.25rem !important;  }
+.p-2 { padding: 0.4rem !important; }
+.ms-4 {margin-left: 1.5rem !important; }
+.mt-1 { margin-top: 0.25rem !important; }
+.fancybar::-webkit-scrollbar {height: 9px;width: 9px;}
+.fancybar::-webkit-scrollbar-thumb {border-radius: 10px;background-color: #4c5258;}
+.fancybar::-webkit-scrollbar-track { background-color: #F5F5F5; }
