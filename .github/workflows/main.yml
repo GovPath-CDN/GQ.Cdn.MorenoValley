@@ -1,0 +1,21 @@
+name: Copy To Blob on Commit
+
+on:
+    push:
+        branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Upload to blob storage GWIZ
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage blob upload-batch --account-name gqcdn -s ./gwiz -d content/gwiz/avondale --sas-token "${{ secrets.SAS_TOKEN }}" --overwrite true
+    - name: Upload to blob storage ACA
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage blob upload-batch --account-name gqcdn -s ./aca -d content/aca/avondale --sas-token "${{ secrets.SAS_TOKEN }}" --overwrite true
